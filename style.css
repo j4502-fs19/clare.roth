@@ -11,7 +11,7 @@ h1 {
   font-family: Georgia, "Times New Roman", serif;
 }
 body {
-  background-color: #ebe3ce;
+  background-color: #white;
 }
 
 h1{
@@ -20,6 +20,10 @@ h1{
 
 h2{
   font-family: 'Heebo', sans-serif;
+}
+
+h3{
+  font-family: 'Arial', sans-serif;
 }
 
 p{
