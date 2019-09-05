@@ -1,34 +1,45 @@
+/*styles go here*/
+
+/* p {
+color: red;
+
+} */
+
 p {
   color: #666666;
   font-family: helvetica, arial, sans-serif;
-}
-
-h1, h2, h3
-{
-  text-align: center
+  font-size: 0.9em;
 }
 h1 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Helvetica,Georgia, serif;
+  font-size: 8em;
+  margin: 0.1em;
+  text-align: center;
+}
+
+h2 {
+    font-family: helvetica, arial, serif;
+    font size: 6em;
+    text-align: center;
+  }
+
+  h3{
+    font-family: helvetica, arial, serif;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+p1 {
+  font-family: "comic sans MS";
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  color: #006400;
 }
 body {
   background-color: #white;
-}
-
-h1{
-  font-family: 'Heebo', sans-serif;
-}
-
-h2{
-  font-family: 'Heebo', sans-serif;
-}
-
-h3{
-  font-family: 'Arial', sans-serif;
-}
-
-p{
-font-family: 'Heebo', sans-serif;
-font-weight: 700;
 }
 
 #nav {
@@ -43,20 +54,24 @@ list-style-type: none;
 #nav a:link, #nav a:visited {
   display: block;
   color: #fff;
-  background-color: #98bf21;
+  background-color: #444;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
+  border-right: 25px;
+  border-left: 25px;
   font-family: helvetica, arial, serif;
-  padding: 4px;
+  padding: 8px;
 }
 
 #nav a:hover, #nav a:active {
-  background-color: #7a991a;
+  border-right: 25px;
+  border-left: 25px;
+  background-color: #333;
 }
 
 .caption {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Comic, serif;
   color: black;
   font-style: italic;
   text-align: right;
@@ -65,7 +80,7 @@ list-style-type: none;
 
 #footer {
   color: black;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Georgia, helvetica, serif;
   font-size: 0.8em;
   border-top: 1px solid black;
 }
