@@ -7,11 +7,11 @@ color: red;
 
 p {
   color: #666666;
-  font-family: helvetica, arial, sans-serif;
+  font-family:'Merriweather', serif;
   font-size: 0.9em;
 }
 h1 {
-  font-family: Helvetica,Georgia, serif;
+  font-family: Helvetica, Georgia, serif;
   font-size: 8em;
   margin: 0.1em;
   text-align: center;
@@ -24,7 +24,7 @@ h2 {
   }
 
   h3{
-    font-family: helvetica, arial, serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 0.8em;
     text-align: center;
 }
@@ -41,6 +41,7 @@ p1 {
 }
 body {
   background-color: #ee82ea;
+  text-align: center;
 }
 
 #nav {
