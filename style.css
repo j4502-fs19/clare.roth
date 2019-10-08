@@ -54,6 +54,16 @@ list-style-type: none;
 }
 .nav li {
   border: none;
+  display: block;
+  color: #fff;
+  background-color: #444;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-right: 25px;
+  border-left: 25px;
+  font-family: helvetica, arial, serif;
+  padding: 8px;
 }
 
 .nav a:link, .nav a:visited {
