@@ -127,5 +127,8 @@ img {
 
 .grid-container {
   display: grid;
- grid-gap: 50px 100px;
+ grid-template-columns: 100px;
+ grid-template-rows: 100px;
+
+
 }
