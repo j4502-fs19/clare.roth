@@ -7,8 +7,8 @@ color: red;
 
 p {
   color: #666666;
-  font-family:'Merriweather', serif;
-  font-size: 0.9em;
+  font-family:'Helvetica', serif;
+  font-size: 0.5em;
 }
 h1 {
   font-family: Helvetica, Georgia, serif;
@@ -125,10 +125,60 @@ img {
   }
 }
 
-.grid-container {
+.cards {
   display: grid;
- grid-template-columns: 100px;
- grid-template-rows: 100px;
-
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  gap: 20px;
+  grid-template-areas:
+  "a b c"
+  "a d e"
+  "f d e";
 
 }
+
+
+ .cards li {
+   background-color: white;
+   border: 1px solid #ccc;
+   padding: 10px;
+   border-radius: 5px;
+   font-size: 3rem;
+   text-align: center;
+ }
+ .one {
+   grid-area:a;
+ }
+ .two {
+   grid-area:b;
+ }
+ .three {
+grid-area:c;
+ }
+
+ .four {
+   grid-area:d;
+ }
+
+.five {
+  grid-area:e;
+}
+
+.six {
+  grid-area:f;
+}
+
+
+@media screen and (min-width:599px){
+  cards{
+    #width:70%;
+grid-auto-rows: 50px;
+  }
+
+  @media screen and (min-width:599px){
+  body{
+      background-color: red;
+  }
