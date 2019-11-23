@@ -7,25 +7,26 @@ color: red;
 
 p {
   color: #666666;
-  font-family:'Helvetica', serif;
-  font-size: 0.5em;
+  font-family: 'Cabin','Helvetica', serif;
+  font-size: 1em;
 }
 h1 {
-  font-family: Helvetica, Georgia, serif;
-  font-size: 8em;
+  font-family: 'Cabin', Helvetica, Georgia, serif;
+  font-size: 5em;
   margin: 0.1em;
   text-align: center;
+
 }
 
 h2 {
-    font-family: helvetica, arial, serif;
+    font-family: 'Cabin', sans-serif;
     font-size: 3em;
-    text-align: center;
+    text-align: left;
   }
 
   h3 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.2em;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.5em;
     text-align: center;
     font-weight: lighter;
 }
@@ -41,10 +42,21 @@ h4 {
   color: #006400;
 }
 body {
-  background-color: #ee82ea;
-  text-align: center;
+  background-color: white;
+  text-align: left;
   text-decoration: none;
+  margin-top: 30;
+  margin-right: 30;
+  margin-bottom: 30;
+  margin-left: 30;
 
+}
+
+.about {
+  display: flex;
+  border-right: 25px;
+  border-left: 25px;
+  text-align: center;
 }
 
 .nav {
@@ -63,7 +75,7 @@ list-style-type: none;
   border-right: 25px;
   border-left: 25px;
   font-family: helvetica, arial, serif;
-  padding: 8px;
+  padding: 10px;
 }
 
 .nav a:link, .nav a:visited {
@@ -85,15 +97,9 @@ list-style-type: none;
   background-color: #333;
 }
 
-.caption {
-  font-family: Comic, serif;
-  color: black;
-  font-style: italic;
-  text-align: right;
-  font-size: 0.8em;
-}
 
-#footer {
+
+footer {
   color: black;
   font-family: arial, helvetica, serif;
   font-size: 0.8em;
@@ -101,6 +107,7 @@ list-style-type: none;
   text-align: left;
   border-top: 3px solid red;
   background-color: #fff8dc;
+  padding: 10px;
 }
 
 img {
@@ -132,12 +139,8 @@ img {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   gap: 20px;
-  grid-template-areas:
-  "a b"
-  "c d"
-  "e f";
-
 }
+
 
 
  .cards li {
@@ -148,27 +151,8 @@ img {
    font-size: 3rem;
    text-align: center;
  }
- .one {
-   grid-area:a;
- }
- .two {
-   grid-area:b;
- }
- .three {
-grid-area:c;
- }
 
- .four {
-   grid-area:d;
- }
 
-.five {
-  grid-area:e;
-}
-
-.six {
-  grid-area:f;
-}
 
 
 
@@ -181,20 +165,16 @@ grid-area:c;
 
 
   body{
-      background-color: red;
+      background-color: white;
   }
 
 
     .cards li{
-    background: orange;
+    background: white;
     border: none;
     }
 
 
-
-    .cards {
-      flex-direction: column-reverse;
-    }
 
 
   .cards img{
@@ -205,14 +185,14 @@ grid-area:c;
 
     .cards {
       display:grid;
-      grid-template-columns:1fr 1fr 1fr;
+      grid-template-columns:1fr 1fr;
       grid-gap:20px;
       grid-template-areas:
-      "a b c"
-      "a d e"
-      "f d e";
+      "a b"
+      "c d"
+      "e f";
     }
-  }
+
 
   @media screen and (min-width:799px){
     .nav {
@@ -221,12 +201,12 @@ grid-area:c;
 
 
   body{
-      background-color: red;
+      background-color: white;
   }
 
 
     .cards li{
-    background: orange;
+    background: white;
     border: none;
     }
 
@@ -245,12 +225,12 @@ grid-area:c;
 
     .cards {
       display:grid;
-      grid-template-columns:1fr 1fr 1fr 1fr;
+      grid-template-columns:1fr 1fr;
       grid-gap:20px;
       grid-template-areas:
-      "a b c ."
-      "a d . e"
-      "f d . e";
+      "a b"
+      "c d"
+      "e f";
     }
   }
 
@@ -258,14 +238,17 @@ grid-area:c;
   nav ul li {
       display: block;
       border-top: 1px #79896d solid;
+      background-color: lightgray;
+      width: 25%;
   }
 
   nav a {
-      color: #f8ecc2;
+      color: black;
       display: block;
       text-decoration: none;
-      padding: 20px 30px;
+      padding: 5px 5px;
       font-family: helvetica;
+
   }
 
   header {
@@ -279,6 +262,7 @@ grid-area:c;
   .menu-trigger {
       font-size: 1.75em;
       width: 2em;
+      color: black;
   }
 
   header h1 {
