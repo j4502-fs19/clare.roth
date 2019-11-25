@@ -100,6 +100,7 @@ nav ul li {
     display: block;
     border-top: 1px #79896d solid;
 width: 25%;
+text-align: center;
 }
 
 nav a {
@@ -148,7 +149,7 @@ nav a {
 
 
   @media screen and (min-width:599px){
-    .nav {
+    nav {
       flex-direction: row;
     }
 
@@ -184,7 +185,8 @@ nav a {
 
 
   @media screen and (min-width:799px){
-    .nav {
+
+  nav {
       flex-direction: row;
     }
 
@@ -228,6 +230,7 @@ nav a {
       display: block;
       border-top: 1px #79896d solid;
   width: 25%;
+  text-align: center;
   }
 
   nav a {
